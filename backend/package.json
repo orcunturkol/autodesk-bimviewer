@@ -1,0 +1,29 @@
+{
+  "name": "autodesk-bimviewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orcunturkol/autodesk-bimviewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orcunturkol/autodesk-bimviewer/issues"
+  },
+  "homepage": "https://github.com/orcunturkol/autodesk-bimviewer#readme",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.3",
+    "qs": "^6.11.2"
+  }
+}
